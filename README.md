@@ -34,3 +34,15 @@ Sur ce dépôt, c'est le code du site en Javascript. Tout le contenu et les disc
 C'est un _fork_ d'un site de l'État, mon-entreprise.fr, qui permet de coder en français des règles de calculs, dans un langage simple et extensible, [publi.codes](https://publi.codes). De ces règles de calcul, des simulateurs (pour l'utilisateur lambda) et des pages de documentation qui expliquent le calcul (pour l'expert ou le curieux) sont générés automatiquement.
 
 Au-delà de ça, nous sommes sur une appli traditionnelle NextJS / styled-components.
+
+
+# Développement
+
+1. Installation avec `yarn install`
+2. Compilation du projet avec `yarn run build`
+3. Lancer le serveur avec `yarn run start`
+4. L'interface est disponible à l'adresse [http://localhost:8080](http://localhost:8080)
+
+Optionnel:
+
+* Utilisation de `Voyage`: Générer une clef API [Maptiler](https://cloud.maptiler.com/account/keys/), puis créer un fichier `.env.local` avec `NEXT_PUBLIC_MAPTILER=<MAPTILER_API_KEY>`, puis revenir au point 2.
